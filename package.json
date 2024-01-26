@@ -1,6 +1,7 @@
 {
   "name": "agenda-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "A Dashboard for @hokify/agenda",
   "license": "MIT",
   "scripts": {
     "dev": "yarn workspace agendash standalone & yarn workspace agendash-react dev",
