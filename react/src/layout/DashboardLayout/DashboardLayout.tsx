@@ -13,7 +13,7 @@ const DashboardLayout = () => {
     <>
       <header className="h-[50px] border-b-2 flex items-center justify-between px-3">
         <Heading className="cursor-pointer" onClick={goToOverviewPage}>
-          Ekino Agendash
+          Agendash
         </Heading>
         {isAuthenticated && <Button onClick={signout}>Logout</Button>}
       </header>

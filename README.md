@@ -1,7 +1,7 @@
 # Arenda React Dashboard
 
 - A Dashboard for [@hokify/agenda](https://github.com/hokify/agenda).
-- Got folk from [Agendash](https://github.com/agenda/agendash).
+- Got forked from [Agendash](https://github.com/agenda/agendash).
 
 ## Installation
 
@@ -35,7 +35,7 @@ const agendashMiddlewarePromise = Agendash(agenda, {});
    const agendash = await agendashMiddlewarePromise
    app.use(agendash);
 
-   #... Your code
+   // ... your code
 })()
 ```
 
@@ -66,4 +66,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/hoang-minh-ekn/agendash/blob/master/LICENSE)
