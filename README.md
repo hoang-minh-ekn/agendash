@@ -1,4 +1,4 @@
-# Arenda React Dashboard
+# Arenda Dashboard
 
 - A Dashboard for [@hokify/agenda](https://github.com/hokify/agenda).
 - Got forked from [Agendash](https://github.com/agenda/agendash).
@@ -16,36 +16,39 @@ yarn add agenda-react
 ## Usage with Express JS
 
 ```typescript
-import express from 'express';
-import { Agenda } from '@hokify/agenda';
-import Agendash from 'agenda-react/agendash/app';
+import express from "express";
+import { Agenda } from "@hokify/agenda";
+import Agendash from "agenda-react/agendash/app";
 
 const app = express();
 
 const agenda = new Agenda({
   db: {
     address: `mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`,
-    collection: 'agenda',
+    collection: "agenda",
   },
 });
 
 const agendashMiddlewarePromise = Agendash(agenda, {});
 
-(async()=>{
-   const agendash = await agendashMiddlewarePromise
-   app.use(agendash);
+(async () => {
+  const agendash = await agendashMiddlewarePromise;
+  app.use(agendash);
 
-   // ... your code
-})()
+  // ... your code
+})();
 ```
 
 ## How to visit the dashboard
+
 - Go to the dashboard: http://[your-host]/agenda-dashboard
 
 ## Authentication
+
 - You need to write a new middleware for this
 
 ## Features
+
 - Job status auto-refreshes: 60-second polling by default.
 - Schedule a new job from the UI.
 - Dive in to see more details about the job, like the json data.
