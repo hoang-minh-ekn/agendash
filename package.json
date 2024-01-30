@@ -1,6 +1,6 @@
 {
-  "name": "agenda-react",
-  "version": "0.0.9",
+  "name": "agenda-react-dev",
+  "version": "0.0.3",
   "description": "A Dashboard for @hokify/agenda",
   "license": "MIT",
   "scripts": {
