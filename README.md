@@ -1,4 +1,4 @@
-# Arenda Dashboard
+# Agenda Dashboard
 
 - A Dashboard for [@hokify/agenda](https://github.com/hokify/agenda).
 - Got forked from [Agendash](https://github.com/agenda/agendash).
