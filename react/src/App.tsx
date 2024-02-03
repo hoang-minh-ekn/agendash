@@ -6,7 +6,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 function App() {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
     </LocalizationProvider>
   );
 }
